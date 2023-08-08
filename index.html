@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Alberto!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alef&family=Hind+Madurai:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="target"></div>
+        <div class="main" id="main">
+            <div class="outline">
+                <img class="logo" src="logo.svg" alt="myLogo">
+            </div>
+            <hr class="vertical">
+            <header>
+                <h1>I'm Alberto, a
+                    <div id="subtitle">
+                        <h4 class="subtitle">CTF player.</h4>
+                        <h4 class="subtitle">Web Developer.</h4>
+                        <h4 class="subtitle"><p id="age">2023</p> years old CS student.</h4>
+                    </div>
+                </h1>
+            </header>
+            <hr class="vertical">
+            <div class="outline">    
+                <nav>
+                    <a onclick="showElement('whoIam')">Who I am</a>
+                    <a onclick="showElement('webDev')">Works</a>
+                    <a onclick="showElement('challs')">Challenges</a>
+                    <!-- <a onclick="showElement('contacts')">Contacts</a> -->
+                </nav>
+            </div>
+        </div>
+    <span class="footer" id="footer">Made by Alberto Corvaglia © <p id="year">2023</p> </span>
+
+    <div class="content" id="whoIam">
+        <div class="textWrapper">
+            <h2>Who I am</h2>
+            <hr>
+        </div>
+        <img src="images/whoIam.jpg" alt="">
+        <h4>I'm a 17 years old student, in I.T.T G. Giorgi.</h4>
+        <p>Since I was a little boy I always was interested in everything connected to the I.T. world and because of that I sperimented a lot of new techonlogies in the past years, from building my own server with improbable hardware to jump from one Linux Distro to another my passion grew exponentially to become who I am now.</p>
+    </div>
+    <div class="content" id="webDev">
+        <div class="textWrapper">
+            <h2>Web Development</h2>
+            <hr>
+        </div>
+        <img src="images/webDevelopment.jpg" alt="">
+        <h4>I created a few sites, these are some of them:</h4>
+        <ul>
+            <li><a href="https://shower2Pet.com">Shower2Pet</a> - HTML5, CSS3, JavaScript</li>
+            <li><a href="https://artcommonspace.it">ArtCommonSpace</a> - Wordpress</li>
+            <li><a href="https://lamaisonblue.it">LaMaisonBlue</a> - Bootstrap 5</li>
+            <li><a href="https://albertocorvaglia.eu.org">MyPortfolio</a> - HTML5, CSS3, JavaScript</li>
+        </ul>
+    </div>
+    <div class="content" id="challs">
+        <div class="textWrapper">
+            <h2>Challenges</h2>
+            <hr>
+        </div>
+        <img src="images/challenges.jpg" alt="">
+        <h4>I actively partecipate in coding challenges and CTFs</h4>
+        <p>I'm also interested int the cybersecurity environment and i like to compete in CTFs with my team P4st1cc1o7t1, and in coding challenges.</p>
+    </div>
+    <div class="content" id="contacts">
+        <div class="textWrapper">
+            <h2>Contacts</h2>
+            <hr>
+        </div>
+        <img src="images/pic01.jpg" alt="">
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure esse facilis sed earum adipisci aliquid molestiae debitis, alias animi assumenda?</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quidem architecto nam porro impedit provident dignissimos eius harum! Consectetur a quo dicta quasi quibusdam minus.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
